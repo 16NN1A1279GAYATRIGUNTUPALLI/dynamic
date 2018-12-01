@@ -1,0 +1,70 @@
+body{
+  background: red;
+}
+.maindiv{
+  background: aqua;
+  margin: 0%;
+  border-radius: 10%;
+  display:flex;
+}
+.leftdiv{
+  background: pink;
+  margin:5%;
+  position: fixed;
+  width: 20%;
+  height: 80%;
+border-radius: 3%;
+box-shadow: 3px 3px 3px 3px;
+text-align: center;
+margin-left: 3%;
+}
+img{
+  width:90%;
+  height:35%;
+  margin:5%;
+}
+.rightdiv{
+  background:lightgreen;
+  border-radius: 5%;
+box-shadow: 5px 5px 5px 5px;
+padding:1%;
+width:65%;
+margin-left: 32%;
+}
+@media only screen and (max-width:480px) {
+
+
+
+.maindiv{
+  background: aqua;
+  margin: 0%;
+  display: inline-block;
+justify-content: space-between;
+}
+.leftdiv{
+  background: pink;
+  margin:0;
+  border-radius: 5px;
+  box-shadow: 4px 4px 4px 4px;
+  text-align: center;
+  width: 100%;
+  height: 50%;
+  position: relative;
+}
+.rightdiv{
+  background:skyblue;
+  margin: 0%;
+  border-radius: 3%;
+box-shadow: 2px 2px 2px 2px;
+text-align: center;
+padding:2%;
+width: 100%;
+margin-top: 4%;
+height: 100%;
+}
+img{
+  margin: 3%;
+  height: 50%;
+width: 50%;
+}
+}
